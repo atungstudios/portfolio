@@ -9,7 +9,7 @@ const AllRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Preview />} />
+        <Route path="/" element={<Home />} />
         <Route path="/home-light" element={<HomeLight />} />
         <Route path="/rtl-home-light" element={<RtlHomeLight />} />
         <Route path="*" element={<NotFound />} />
