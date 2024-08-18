@@ -15,9 +15,9 @@ const HomeLight = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
-    document.body.classList.toggle("dark", isDarkMode);
-    localStorage.setItem("isDarkModeEnabled", isDarkMode);
-  }, [isDarkMode]);
+    document.body.classList.toggle("dark", !isDarkMode);
+    localStorage.setItem("isDarkModeEnabled", !isDarkMode);
+  }, [!isDarkMode]);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -25,7 +25,7 @@ const HomeLight = () => {
 
   return (
     <>
-      <PageTitle title="Home Regular" />
+      <PageTitle title="atungstudios" />
       {/* End page title for seo */}
 
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
@@ -119,7 +119,7 @@ const HomeLight = () => {
           <div className="rightpart_in">
             <div className="tokyo_tm_section">
               <TabPanel>
-                <div data-aos="fade-right" data-aos-duration="1200">
+                <div data-aos="fade" data-aos-duration="1200">
                   <Home />
                 </div>
               </TabPanel>
@@ -127,7 +127,7 @@ const HomeLight = () => {
 
               <TabPanel>
                 <div
-                  data-aos="fade-right"
+                  data-aos="fade"
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
@@ -138,7 +138,7 @@ const HomeLight = () => {
 
               <TabPanel>
                 <div
-                  data-aos="fade-right"
+                  data-aos="fade"
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
@@ -159,7 +159,7 @@ const HomeLight = () => {
 
               <TabPanel>
                 <div
-                  data-aos="fade-right"
+                  data-aos="fade"
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >

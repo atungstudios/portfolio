@@ -121,7 +121,7 @@ const HomeLight = () => {
             <div className="tokyo_tm_section">
               <div className="container">
                 <TabPanel>
-                  <div data-aos="fade-right" data-aos-duration="1200">
+                  <div data-aos="fade" data-aos-duration="1200">
                     <Home />
                   </div>
                 </TabPanel>
@@ -129,7 +129,7 @@ const HomeLight = () => {
 
                 <TabPanel>
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -140,7 +140,7 @@ const HomeLight = () => {
 
                 <TabPanel>
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -161,7 +161,7 @@ const HomeLight = () => {
 
                 <TabPanel>
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade"
                     data-aos-duration="1200"
                     data-aos-delay="200"
                   >

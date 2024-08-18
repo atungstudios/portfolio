@@ -38,7 +38,7 @@ const News = () => {
           {/* END TITLE */}
 
           <ul>
-            <li data-aos="fade-right" data-aos-duration="1200">
+            <li data-aos="fade" data-aos-duration="1200">
               <div className="list_inner">
                 <div className="image" onClick={toggleModalOne}>
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -193,7 +193,7 @@ const News = () => {
             {/* END SINGLE BLOG */}
 
             <li
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
@@ -349,7 +349,7 @@ const News = () => {
             {/* END SINGLE BLOG */}
 
             <li
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="1200"
               data-aos-delay="300"
             >
@@ -500,7 +500,7 @@ const News = () => {
             {/* END SINGLE BLOG */}
 
             <li
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="1200"
               data-aos-delay="400"
             >

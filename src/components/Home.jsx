@@ -17,13 +17,13 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
+            <h3 className="name">Andrea Tung</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              Creative designer who loves to experiment with new ideas in the
+              realms of graphics design and photography.
             </p>
             {/* END JOB */}
-            <Social />
+            {/* <Social /> */}
           </div>
           {/* END DETAILS */}
         </div>

@@ -1,9 +1,10 @@
 import React from "react";
+import Social from "./Social";
 
 const CopyRight = () => {
   return (
     <div className="copyright">
-      <p>
+      {/* <p>
         &copy; {new Date().getFullYear()} Tokyo <br /> Created by
         <a
           href="https://themeforest.net/user/ib-themes"
@@ -12,7 +13,8 @@ const CopyRight = () => {
         >
           Ib-Themes
         </a>
-      </p>
+      </p> */}
+      <Social />
     </div>
   );
 };
